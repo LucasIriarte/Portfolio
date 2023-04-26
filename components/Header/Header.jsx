@@ -18,12 +18,6 @@ const Header = () => {
                 <NavLink>
                     Contacto
                 </NavLink>
-                <NavLink>
-                    Tecnologías a aprender
-                </NavLink>
-                <NavLink>
-                    Hobbies
-                </NavLink>
             </nav>
         </>
     )

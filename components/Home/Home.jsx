@@ -3,6 +3,7 @@ import Styles from "./Home.module.css"
 import img from "../Images/Lucas.png"
 import Header from "../Header/Header";
 import AboutMe from "../AboutMe/AboutMe";
+import Proyects from "../Proyects/Proyects";
 
 const Home = () => {
     return (
@@ -23,6 +24,8 @@ const Home = () => {
             </div>
 
             <AboutMe/>
+
+            <Proyects/>
             
         </main>
     )
