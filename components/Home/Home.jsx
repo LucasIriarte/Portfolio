@@ -23,9 +23,9 @@ const Home = () => {
                 </div>
             </div>
 
-            <AboutMe/>
-
             <Proyects/>
+
+            <AboutMe/>
             
         </main>
     )
