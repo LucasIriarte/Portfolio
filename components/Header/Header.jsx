@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <>
-            <nav className="flex justify-evenly items-center font-medium h-16 fixed w-full backdrop-blur-sm">
+            <nav className="flex justify-evenly items-center font-medium h-16 fixed w-full backdrop-blur-sm bg-white/[.01]">
                 <NavLink>
                     Sobre mi
                 </NavLink>
