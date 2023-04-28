@@ -14,7 +14,15 @@ export default {
         'color5': '#00002e',
         'color-main1': '#FF00FC',
         'color-main2': '#00FFFC',
+        'button-default': '#113BE1',
+        'button-default-clare': '#4268FF',
       },
+      borderRadius: {
+        "1/2": "50%",
+      },
+        maxWidth: {
+          '250px': '250px',
+        }
     },
   },
   plugins: [],
