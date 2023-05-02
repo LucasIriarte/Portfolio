@@ -1,0 +1,6 @@
+.containerCard {
+    background-image: radial-gradient(ellipse 4em 9em at left, rgb(255, 0, 252,.5) 3%, transparent),
+                      radial-gradient(ellipse 4em 9em at right, rgb(0, 255, 251,.5) 3%, rgb(255, 255, 255,.01));
+    border:1px solid #131313
+}
+/* bg-gradient-to-r from-color-main1/[0.5] via-black to-color-main2/[0.5] */
