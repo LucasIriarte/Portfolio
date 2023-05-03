@@ -4,6 +4,7 @@ import img from "../Images/Lucas.png"
 import Header from "../Header/Header";
 import AboutMe from "../AboutMe/AboutMe";
 import Proyects from "../Proyects/Proyects";
+import Tecnologies from "../Tecnologies/Tecnologies";
 
 const Home = () => {
     return (
@@ -26,6 +27,8 @@ const Home = () => {
             <Proyects/>
 
             <AboutMe/>
+
+            <Tecnologies/>
             
         </main>
     )
