@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import AboutMe from "../AboutMe/AboutMe";
 import Proyects from "../Proyects/Proyects";
 import Tecnologies from "../Tecnologies/Tecnologies";
+import ContactMe from "../ContactMe/Contact";
 
 const Home = () => {
     return (
@@ -26,10 +27,13 @@ const Home = () => {
 
             <Proyects/>
 
-            <AboutMe/>
 
             <Tecnologies/>
+
+            <ContactMe/>
             
+            <AboutMe/>
+
         </main>
     )
 }

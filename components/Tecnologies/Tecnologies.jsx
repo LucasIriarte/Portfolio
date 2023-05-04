@@ -34,7 +34,7 @@ const Tecnologies = () => {
                     <h3 className="text-center">PostgresSQL</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/redux-icon.png" alt="Icon technology redux"/>
+                    <img src="../../public/reduxIcon.svg" alt="Icon technology redux"/>
                     <h3 className="text-center">Redux.js</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
