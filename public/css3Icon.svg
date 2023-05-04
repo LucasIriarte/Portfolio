@@ -1,14 +1,1 @@
-<svg width="455" height="512" xmlns="http://www.w3.org/2000/svg" fill="#000000" version="1.1" enable-background="new 0 0 512 512" xml:space="preserve">
- <g>
-  <title>Layer 1</title>
-  <g id="c133de6af664cd4f011a55de6b001b19">
-   <path fill="url(#svg_2)" display="inline" d="m454.111,0.501l-42.59,461.314l-184.524,49.684l-184.527,-49.684l-42.581,-461.314l454.222,0zm-85.821,93.801l-141.459,0l-143.965,0l6.885,55.708l137.08,0l7.7,0l-7.7,3.205l-132.07,55.006l4.38,54.453l127.69,0.414l68.438,0.217l-4.381,72.606l-64.058,18.035l0,-0.057l-0.525,0.146l-61.864,-15.617l-3.754,-45.07l-0.205,0l-57.382,0l-0.202,0l7.511,87.007l116.423,34.429l0,-0.062l0.21,0.062l115.799,-33.802l15.021,-172.761l-131.03,0l-0.323,0l0.323,-0.14l135.83,-58.071l5.628,-55.708z" id="svg_1"/>
-  </g>
- </g>
- <defs>
-  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_2">
-   <stop offset="0" stop-opacity="0.99609" stop-color="#ff00fc"/>
-   <stop offset="0.99609" stop-opacity="0.99609" stop-color="#00fffc"/>
-  </linearGradient>
- </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="96px" height="96px"><path fill="#0277BD" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"/><path fill="#039BE5" d="M24 8L24 39.9 35.2 36.7 37.7 8z"/><path fill="#FFF" d="M33.1 13L24 13 24 17 28.9 17 28.6 21 24 21 24 25 28.4 25 28.1 29.5 24 30.9 24 35.1 31.9 32.5 32.6 21 32.6 21z"/><path fill="#EEE" d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"/></svg>
