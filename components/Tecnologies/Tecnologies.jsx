@@ -2,9 +2,9 @@ import React from "react";
 
 const Tecnologies = () => {
     return (
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl mx-auto mt-24">
             <h3 className="text-3xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-color-main1 to-color-main2 inline">Tecnologías:</h3>
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap justify-center mt-8">
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
                     <img src="../../public/reactIcon.svg" alt="Icon technology react"/>
                     <h3 className="text-center">React.js</h3>
