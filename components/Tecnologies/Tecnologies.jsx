@@ -41,6 +41,10 @@ const Tecnologies = () => {
                     <img src="../../public/tailwindIcon.svg" alt="Icon technology tailwind"/>
                     <h3 className="text-center">Tailwindcss</h3>
                 </div>
+                <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
+                    <img src="../../public/javascriptIcon.svg" alt="Icon technology tailwind"/>
+                    <h3 className="text-center">Tailwindcss</h3>
+                </div>
             </div>
         </div>
     )
