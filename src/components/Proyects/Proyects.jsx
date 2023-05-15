@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "../Cards/Cards";
-import piDogs from "../Images/piDogs.jpg"
+import PiDogs from "../../assets/piDogs.jpg"
 
 
 const Proyects = () => {
@@ -8,7 +8,7 @@ const Proyects = () => {
         <div className="max-w-screen-xl mx-auto">
            <h3 className="text-3xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-color-main1 to-color-main2 inline">Proyectos</h3> 
            <div className="mt-8">
-                <Cards title="PI dogs" img={piDogs}/>
+                <Cards title="PI dogs" img={ PiDogs }/>
            </div>
         </div>
     )

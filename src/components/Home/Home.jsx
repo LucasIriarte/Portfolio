@@ -1,11 +1,10 @@
 import React from "react";
-import Styles from "./Home.module.css"
-import img from "../Images/Lucas.png"
 import Header from "../Header/Header";
 import AboutMe from "../AboutMe/AboutMe";
 import Proyects from "../Proyects/Proyects";
 import Tecnologies from "../Tecnologies/Tecnologies";
 import ContactMe from "../ContactMe/Contact";
+import Lucas from "../../assets/Lucas.png"
 
 const Home = () => {
     return (
@@ -21,7 +20,7 @@ const Home = () => {
                 </div>
 
                 <div className="w-1/2 max-w-xs">
-                    <img src={img} alt="Imagen Lucas Ezequiel Iriarte" className="w-full"/>
+                    <img src={Lucas} alt="Imagen Lucas Ezequiel Iriarte" className="w-full"/>
                 </div>
             </div>
 

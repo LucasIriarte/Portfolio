@@ -9,7 +9,7 @@ const Cards = (props) => {
             <div className={`w-10/12 mx-auto rounded-md overflow-hidden`}>
                 <img src={props.img} alt="image-proyect" className="bg-black"/>
             </div>
-            <button class="bg-gradient-to-r from-button-default via-button-default-clare to-button-default text-white font-bold py-2 px-4 rounded mt-8 w-10/12 mx-auto">
+            <button className="bg-gradient-to-r from-button-default via-button-default-clare to-button-default text-white font-bold py-2 px-4 rounded mt-8 w-10/12 mx-auto">
                 view
             </button>
         </div>

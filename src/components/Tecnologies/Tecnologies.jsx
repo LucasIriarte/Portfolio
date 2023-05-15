@@ -1,4 +1,15 @@
 import React from "react";
+import ReactIcon from "../../assets/reactIcon.svg"
+import Css3Icon from "../../assets/css3Icon.svg"
+import Html5Icon from "../../assets/html5Icon.svg"
+import ExpressJsIcon from "../../assets/expressJsIcon.svg"
+import GITIcon from "../../assets/gitIcon.svg"
+import NodeJsIcon from "../../assets/nodeJsIcon.svg"
+import PostgresIcon from "../../assets/postgresqlIcon.svg"
+import ReduxIcon from "../../assets/reduxIcon.svg"
+import TailwindIcon from "../../assets/tailwindIcon.svg"
+import JavascriptIcon from "../../assets/javascriptIcon.svg"
+
 
 const Tecnologies = () => {
     return (
@@ -6,19 +17,19 @@ const Tecnologies = () => {
             <h3 className="text-3xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-color-main1 to-color-main2 inline">Tecnologías:</h3>
             <div className="flex flex-wrap justify-center mt-8">
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/reactIcon.svg" alt="Icon technology react"/>
+                    <img src={ ReactIcon } alt="Icon technology react"/>
                     <h3 className="text-center">React.js</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/css3Icon.svg" alt="Icon technoloy css"/>
+                    <img src={ Css3Icon } alt="Icon technoloy css"/>
                     <h3 className="text-center">CSS3</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/html5Icon.svg" alt="Icon technology html"/>
+                    <img src={ Html5Icon } alt="Icon technology html"/>
                     <h3 className="text-center">HTML3</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/expressJsIcon.svg" alt="Icon technology expresJs"/>
+                    <img src={ ExpressJsIcon } alt="Icon technology expresJs"/>
                     <h3 className="text-center">Express.js</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
@@ -26,23 +37,23 @@ const Tecnologies = () => {
                     <h3 className="text-center">GIT</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/nodeJsIcon.svg" alt="Icon technology nodeJs"/>
+                    <img src={ NodeJsIcon } alt="Icon technology nodeJs"/>
                     <h3 className="text-center">Node.js</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/postgresqlIcon.svg" alt="Icon technology postgresql"/>
+                    <img src={ PostgresIcon } alt="Icon technology postgresql"/>
                     <h3 className="text-center">PostgresSQL</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/reduxIcon.svg" alt="Icon technology redux"/>
+                    <img src={ ReduxIcon } alt="Icon technology redux"/>
                     <h3 className="text-center">Redux.js</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/tailwindIcon.svg" alt="Icon technology tailwind"/>
+                    <img src={ TailwindIcon } alt="Icon technology tailwind"/>
                     <h3 className="text-center">Tailwindcss</h3>
                 </div>
                 <div className="h-42 w-36 bg-white/[.02] flex justify-center align-center flex-col mx-12 my-3 rounded-xl border border-white/[.05]">
-                    <img src="../../public/javascriptIcon.svg" alt="Icon technology tailwind"/>
+                    <img src={ JavascriptIcon } alt="Icon technology tailwind"/>
                     <h3 className="text-center">JavaScript</h3>
                 </div>
             </div>
