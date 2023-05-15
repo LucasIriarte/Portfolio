@@ -5,6 +5,7 @@ import Proyects from "../Proyects/Proyects";
 import Tecnologies from "../Tecnologies/Tecnologies";
 import ContactMe from "../ContactMe/Contact";
 import Lucas from "../../assets/Lucas.png"
+import Footer from "../Footer/Footer";
 
 const Home = () => {
     return (
@@ -32,6 +33,8 @@ const Home = () => {
             <ContactMe/>
             
             <AboutMe/>
+
+            <Footer/>
 
         </main>
     )
