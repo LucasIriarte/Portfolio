@@ -11,7 +11,7 @@ const ContactMe = () => {
             <div className="flex mt-4">
                 <div className="hover:scale-105 transition-all duration-300 mx-8 ml-0">
                     <a href="mailto:lucasiriarte67@gmail.com" target="_blank" className="hover:scale-105 transition-all duration-300">
-                        <img src={ EmailIcon } alt="Correo electronico icono" className="w-24 ml-0 mx-2" />
+                        <img src={ EmailIcon } alt="Correo electronico icono" className="w-24 mx-2" />
                         <h4 className="text-2xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-color-main1 to-color-main2 text-center">Email</h4>
                     </a>
                 </div>
