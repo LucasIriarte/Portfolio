@@ -1,0 +1,4 @@
+.boxShadowPhoto{
+    box-shadow: -3px -2px 13px 0 var(--color-main1),
+                3px 2px 13px 0 var(--color-main2)
+}
