@@ -1,5 +1,4 @@
 .AnimFooter {
-    width: 100%;
     height: 2px;
     background-image: linear-gradient(-90deg, #FF00FC, #00FFFC, #FF00FC, #00FFFC);
     background-size: 200% 100%;
