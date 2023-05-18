@@ -20,11 +20,11 @@ export default {
       borderRadius: {
         "1/2": "50%",
       },
-        maxWidth: {
-          '250px': '250px',
-        }
+      maxWidth: {
+        '250px': '250px',
+        '200px': '200px',
+      },
     },
   },
   plugins: [],
 }
-
