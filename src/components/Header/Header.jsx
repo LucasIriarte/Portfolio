@@ -9,12 +9,8 @@ const Header = () => {
     }
     return (
         <>
-            <nav className="bg-white border-gray-200 dark:bg-transparent backdrop-blur-sm bg-white/[.01]">
+            <nav className="fixed top-0 left-0 right-0 bg-white border-gray-200 dark:bg-color1/[.9] backdrop-blur-md bg-white/[.01]">
                 <div className="flex flex-wrap items-center justify-end max-w-screen-xl mx-auto p-4">
-                    {/* <a href="https://flowbite.com" className="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                    </a> */}
                     <div className="flex items-center md:order-2">
                         <button data-collapse-toggle="mega-menu" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mega-menu" aria-expanded="false" onClick={handleBarsDrops}>
                             <span className="sr-only">Open main menu</span>
