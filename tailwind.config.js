@@ -21,9 +21,16 @@ export default {
         "1/2": "50%",
       },
       maxWidth: {
+        '150px': '150px',
         '250px': '250px',
         '200px': '200px',
       },
+      minWidth: {
+        '250px': '250px',
+      },
+      minHeight: {
+        '64': '16rem',
+      }
     },
   },
   plugins: [],

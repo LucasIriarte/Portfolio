@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div className={`my-6 lg:my-8 ${Styles.AnimFooter} w-1/4`}></div>
             </div>
-            <span className="text-blue-900/[.4] text-center mt-4">Copyright © 2023 Lucas Ezequiel Iriarte</span>
+            <span className="text-slate-500 text-center mt-4">Copyright © 2023 Lucas Ezequiel Iriarte</span>
         </footer>
 
 
