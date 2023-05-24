@@ -9,7 +9,7 @@ import LinkedinIcon from "../../assets/linkedinIcon.svg"
 const Footer = () => {
     return (
 
-        <footer className={`bg-color5/[.3] flex flex-col pt-4 mt-16 border-t border-slate-700`}>
+        <footer id="ContactMe" className={`bg-color5/[.3] flex flex-col pt-4 mt-16 border-t border-slate-700 scroll-mt-20`}>
             <h3 className="text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-color-main1 to-color-main2 mx-auto">Contactame</h3>
             <div className="flex justify-between mt-4">
                 <div className={`my-6 lg:my-8 ${Styles.AnimFooter} w-1/4 md:w-5/12`}></div>

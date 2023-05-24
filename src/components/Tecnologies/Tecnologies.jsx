@@ -13,7 +13,7 @@ import JavascriptIcon from "../../assets/javascriptIcon.svg"
 
 const Tecnologies = () => {
     return (
-        <div className="max-w-screen-xl mx-auto mt-24 flex flex-col">
+        <div id="Tecnologies" className="max-w-screen-xl mx-auto mt-24 flex flex-col scroll-mt-20">
             <h3 className="text-3xl mx-auto font-medium text-transparent bg-clip-text bg-gradient-to-r from-color-main1 to-color-main2 inline md:ml-12">Tecnologías:</h3>
             <div className="flex flex-wrap justify-center mt-8 w-full">
                 <div className="max-w-150px w-2/5 h-auto max-w-200px mx-auto sm:h-42 sm:w-36 bg-white/[.02] flex justify-center align-center flex-col sm:mx-12 my-3 rounded-xl border border-white/[.05]">

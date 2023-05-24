@@ -7,6 +7,9 @@ const Header = () => {
     const handleBarsDrops = () => {
         barsDropDown?setBarsDropDown(false):setBarsDropDown(true)
     }
+    const handleBarsDropsDownPhone = () => {
+        setBarsDropDown(!barsDropDown)
+    }
     return (
         <>
             <nav className="fixed top-0 left-0 right-0 bg-white border-gray-200 dark:bg-color1/[.9] backdrop-blur-md bg-white/[.01]">
@@ -20,36 +23,21 @@ const Header = () => {
                     <div className={barsDropDown===true?"items-center justify-between w-full sm:flex sm:w-full":"items-center justify-between hidden w-full sm:flex sm:w-full"}>
                         <ul className="flex items-center flex-col mt-4 font-medium sm:flex-row sm:justify-evenly sm:w-full">
                             <li>
-                                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 sm:hover:text-blue-600 sm:p-0 dark:text-white sm:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 sm:dark:hover:bg-transparent dark:border-gray-700">Sobre mi</a>
+                                <a href="#Proyects" onClick={handleBarsDropsDownPhone} className="block py-2 pl-3 pr-4 text-gray-900 sm:border-0 sm:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:bg-transparent dark:border-gray-700">Proyectos</a>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 sm:hover:text-blue-600 sm:p-0 dark:text-white sm:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 sm:dark:hover:bg-transparent dark:border-gray-700">Proyectos</a>
+                                <a href="#Tecnologies" onClick={handleBarsDropsDownPhone} className="block py-2 pl-3 pr-4 text-gray-900 sm:border-0 sm:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:bg-transparent dark:border-gray-700">Tecnologías</a>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 sm:hover:text-blue-600 sm:p-0 dark:text-white sm:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 sm:dark:hover:bg-transparent dark:border-gray-700">Tecnologías</a>
+                                <a href="#AboutMe" onClick={handleBarsDropsDownPhone} className="block py-2 pl-3 pr-4 text-gray-900 sm:border-0 sm:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:bg-transparent dark:border-gray-700">Sobre mi</a>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 hover:bg-gray-50 sm:hover:bg-transparent sm:border-0 sm:hover:text-blue-600 sm:p-0 dark:text-white sm:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 sm:dark:hover:bg-transparent dark:border-gray-700">Contacto</a>
+                                <a href="#ContactMe" onClick={handleBarsDropsDownPhone} className="block py-2 pl-3 pr-4 text-gray-900 sm:border-0 sm:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:bg-transparent dark:border-gray-700">Contacto</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-
-            {/* <nav className="flex justify-evenly items-center font-medium h-16 fixed w-full backdrop-blur-sm bg-white/[.01]">
-                <NavLink>
-                    Sobre mi
-                </NavLink>
-                <NavLink>
-                    Proyectos
-                </NavLink>
-                <NavLink>
-                    Tecnologías
-                </NavLink>
-                <NavLink>
-                    Contacto
-                </NavLink>
-            </nav> */}
         </>
     )
 }
