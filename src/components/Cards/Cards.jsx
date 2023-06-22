@@ -11,7 +11,7 @@ const Cards = (props) => {
         console.log(moreInfo)
     }, [moreInfo])
     return (
-        <div className={`${Styles.containerCard} min-w-250px max-w-250px rounded-2xl overflow-hidden h-64 flex flex-col min-h-64`}>
+        <div className={`${Styles.containerCard} min-w-250px max-w-250px rounded-2xl overflow-hidden h-64 flex flex-col min-h-64 max-sm:mx-auto max-sm:mt-6`}>
             <h3 className="text-center">{props.title}</h3>
             <div className={moreInfo ? `hidden` : `w-10/12 mx-auto rounded-md overflow-hidden`}>
                 <img src={props.img} alt="image-proyect" className="bg-black" />
