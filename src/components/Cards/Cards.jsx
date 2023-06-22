@@ -7,9 +7,6 @@ const Cards = (props) => {
     const handleMoreInfo = () => {
         moreInfo ? setMoreInfo(false) : setMoreInfo(true)
     }
-    useEffect(() => {
-        console.log(moreInfo)
-    }, [moreInfo])
     return (
         <div className={`${Styles.containerCard} min-w-250px max-w-250px rounded-2xl overflow-hidden h-64 flex flex-col min-h-64 max-sm:mx-auto max-sm:mt-6`}>
             <h3 className="text-center">{props.title}</h3>
