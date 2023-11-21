@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "../Cards/Cards";
 import PiDogs from "../../assets/piDogs.jpg"
 import pfRadiatorSprings from "../../assets/pfRadiatorSprings.jpg"
+import Ecommerce from "../../assets/Ecommerce.png"
 
 
 const Proyects = () => {
@@ -12,6 +13,9 @@ const Proyects = () => {
                 <Cards title="PI dogs" img={PiDogs} moreInfo="Proyecto en el que se muestran perros traidos desde una api externa y permite crear propios perros, se utilizó: JavaScript, React, Redux, Sequalize, Express y PostgreSQL." deploy="https://pi-dogs-rouge.vercel.app" gitHub="https://github.com/LucasIriarte/PI-Dogs" />
                 <div className="sm:ml-12">
                     <Cards title="PF Radiator Springs" img={pfRadiatorSprings} moreInfo="Proyecto grupal en donde la idea se basa en una página para la venta y compra de automoviles, se creó una api en la que se pueden guardar nuevos autos a la venta y son mostrados de manera automatica tras un pago por anunciarlo." deploy="https://pf-henryss.vercel.app/" gitHub="https://github.com/Knd0/PF_Henryss" />
+                </div>
+                <div className="sm:ml-12">
+                    <Cards title="Ecommerce" img={Ecommerce} moreInfo="Simulación de trabajo en grupo, en el que se hizo un Ecommerce completamente desde cero con gente trabajando en su area de Frontend/Backend en la que se utilizó java para Backend y React para el Frontend." deploy="https://client-no-country.vercel.app/" />
                 </div>
             </div>
         </div>

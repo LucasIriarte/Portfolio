@@ -6,7 +6,7 @@ import Tecnologies from "../Tecnologies/Tecnologies";
 import Lucas from "../../assets/Lucas.png"
 import Footer from "../Footer/Footer";
 import Styles from "./Home.module.css"
-import Variables from "../../Variables.css"
+import Variables from "../../Variables.css?inline"
 
 const Home = () => {
     return (
